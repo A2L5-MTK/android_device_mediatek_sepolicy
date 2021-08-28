@@ -21,3 +21,4 @@ genfscon rawfs / u:object_r:rawfs:s0
 # ============
 
 genfscon proc /secmem0 u:object_r:proc_secmem:s0
+genfscon proc /cmdline u:object_r:proc_cmdline:s0
